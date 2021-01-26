@@ -1,0 +1,104 @@
+body {
+    background-color: #F77976;
+    color: #FDF148;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 125px;
+    color: #33A8C7;
+    background-color: #A0E426;
+    border: 5px solid #FDF148;
+    text-shadow: -2.5px 0 #9336FD, 0 2.5px #9336FD, 2.5px 0 #9336FD, 0 -2.5px #9336FD;
+    display: block;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: 'Bangers', cursive;
+    word-spacing: 5px;
+    text-shadow: -1px 0 #9336FD, 0 2px #9336FD, 1px 0 #9336FD, 0 -1px #9336FD;
+    background-color: #33A8C7;
+    border: 2px solid #A0E426;
+    padding: 3px;
+}
+
+form {
+    border: 5px solid #A0E426;
+    padding: 5px;
+}
+
+
+.memeDiv {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-family: 'Oswald', sans-serif;
+    max-width: 500px;
+}
+
+.image {
+    border: none;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    overflow: auto;
+    max-width: 500px;
+}
+
+
+.textTop {
+    z-index: 20;
+    left: 25%; /*center text and center image, think about text size as screen moves*/
+    top: 5%;
+    position: absolute;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.textBottom {
+    z-index: 20;
+    left: 25%;
+    bottom: 20%;
+    position: absolute;
+    padding: 0px;
+    text-align: center;
+}
+
+.remove {
+    margin: 10px;
+    padding: 3px;
+    background-color: #A0E426;
+    color: #9336FD;
+}
+
+#submit {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-shadow: 0, 0 2px #9336FD, 0, 0 -1px #9336FD;
+    background-color: #A0E426;
+    color: #9336FD;
+    border-radius: 22%;
+}
+
+.userInput {
+    width: 40%;
+    background-color: #FDF148;
+    color: #9336FD;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
